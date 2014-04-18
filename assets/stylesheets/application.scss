@@ -1,1 +1,13 @@
-@import "common/foundation/variables";
+
+@import "./badges.css.scss";
+@import "./buttons.scss";
+@import "./navs.scss";
+@import "./desktop/compose.scss";
+@import "./desktop/discourse.scss";
+@import "./desktop/header.scss";
+@import "./desktop/topic-list.scss";
+@import "./desktop/topic-post.scss";
+@import "./desktop/topic.scss";
+@import "./desktop/user.scss";
+
+@import "./sitepoint/typography.scss";

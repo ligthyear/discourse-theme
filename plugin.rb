@@ -50,18 +50,7 @@ register_asset "javascripts/discourse/views/post_menu_view.js" # ok
 register_asset "javascripts/discourse/views/post_view.js" # ok
 register_asset "javascripts/discourse/views/activity_filter_view.js" # ok
 
-register_asset "stylesheets/common/components/badges.css.scss"
-register_asset "stylesheets/common/components/buttons.scss"
-register_asset "stylesheets/common/components/navs.scss"
-register_asset "stylesheets/desktop/compose.scss"
-register_asset "stylesheets/desktop/discourse.scss"
-register_asset "stylesheets/desktop/header.scss" # e.g. this is being loaded too early, causing header color to be overridden by default header.scss
-register_asset "stylesheets/desktop/topic-list.scss"
-register_asset "stylesheets/desktop/topic-post.scss"
-register_asset "stylesheets/desktop/topic.scss"
-register_asset "stylesheets/desktop/user.scss"
-
-register_asset "stylesheets/sitepoint/typography.scss"
+register_asset "stylesheets/application.scss"
 
 
 
